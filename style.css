@@ -540,6 +540,72 @@ background-color: var(--primary-color);
     margin-bottom: 10px;
 }
 
+.tech-buttons {
+    margin: 10px 2px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+
+.tech-btn {
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    color: #374151;
+    font-weight: 600;
+    cursor: default;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Hover */
+.tech-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.tech-btn.html {
+    background: linear-gradient(135deg, #ff8c42, #ff6a00);
+    color: #fff;
+}
+
+.tech-btn.css {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    color: #fff;
+}
+
+.tech-btn.js {
+    background: linear-gradient(135deg, #f7df1e, #f1c40f);
+    color: #1f2937;
+}
+
+.tech-btn:hover
+ {
+    opacity: 0.9;
+}
+
+.visit-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 16px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.visit-btn:hover {
+    background: linear-gradient(135deg, #4f46e5, #3730a3);
+    transform: translateY(-2px);
+}
+
+
+
 #portfolio .row .item .item-content a{
     
     font-size: 14px;
@@ -840,6 +906,6 @@ footer{
    }
    
 
-/* responsive website  end */
+/* responsive website  start */
 
 
